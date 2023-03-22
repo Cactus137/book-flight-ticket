@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}   
+header{
+    width: 100%;
+    height: 63px;
+    display: flex;
+    border-bottom: 1.5px solid #e0e0e0;
+}
+header .logo{
+    margin-left: 80px;
+    padding-top: 12px;
+}
+header .logo img{
+    max-height: 35px;
+}
+header .menu{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 73px;
+}
+header .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+header .menu ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+    padding: 0 15px;
+    line-height: 63px;
+    font-size: 17px;
+    font-weight: 600;
+}
+header .shopping_cart{
+    float: right;
+    margin: 15px 85px 0 0;
+}
+article{
+    max-width: 100%;
+    height: 599px;
+    background: url('../image/wp4837183-aeroplanes-wallpapers.jpg') no-repeat center ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article .form{
+    width: 900px;
+    height: 336px;
+    background-color: #443936;
+    opacity: 0.82;
+    border-radius: 8px;
+}
+article .form form{
+    color: white;
+    width: 89%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+article .form form .row1, .row2, .row3,.row4{
+    display: flex;
+    margin-bottom: 17px;
+}
+.col #Birthday, #card, #Email, #payment, #phone, #user_name, #reset, #submit{
+    height: 30px;
+    margin-top: 7px;
+}
+article .row1 label{
+    padding-right: 17px;
+}
+article .row2 .col {
+    width: 50%;
+    padding-right: 20px; 
+}
+article .row2 .col input{
+    width: 100%;
+}
+article .row3{
+    display: flex;
+    width: 100%;
+}
+article .row3 .lt,.rt{
+    display: flex;
+    width: 50%; 
+}
+article .row3 .lt .col{
+    padding-right: 47px;
+    width: 100%;
+}
+article .row3 .rt  .col{
+    margin-right: 20px;
+    width: 50%;
+}
+#gender{
+    margin-top: 7px;
+}
+article .row4{
+    width: 100%;
+}
+article .row4 .lt,.rt{
+    width: 50%;
+}
+article .row4 .lt .col #payment{
+    width: 70%;
+}
+article .row4 .rt .col{
+    width: 50%;
+    margin-top: 18px;
+}
+article .row4 .rt .col input{
+    width: 181px;
+    background-color: #d93131;
+    border-radius: 19px;
+    color: white;
+}
+#checkloi{
+    width: 100%;
+    color: red;
+    padding: 9px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #2222aa;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+footer p{
+    padding-top: 8px;
+    padding-left: 8px; 
+}

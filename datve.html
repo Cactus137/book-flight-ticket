@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/datve.css">
+    <script src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="//fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body onload="datve()">
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./datve.html">Booking</a></li>
+                    <li><a href="https://www.expediagroup.com/home/">About us</a></li>
+                </ul>
+            </div>
+            <div class="shopping_cart">
+                <img src="./image/shopping-cart.png" alt="">
+            </div>
+        </header>
+        <article>
+            <div class="form">
+                <form action="check">
+                    <div class="row1">
+                        <div class="col">
+                            <input type="radio" name="way" id="way">
+                            <label for="way">Roundtrip</label>
+                            <input type="radio" name="way" id="way">
+                            <label for="way">One way</label>
+                            <input type="radio" name="way" id="way">
+                            <label for="way">Multi-City</label>                            
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="col">
+                            <label for="user_name">Full name</label><br>
+                            <input type="text" name="user_name" id="user_name">
+                        </div>
+                        <div class="col">
+                            <label for="Email">Email</label><br>
+                            <input type="text" name="Email" id="Email"> 
+                        </div>
+                    </div>
+                    <div class="row3">
+                        <div class="lt">
+                            <div class="col">
+                                <label for="Birthday">Date of birth</label><br>
+                                <input type="date" name="Birthday" id="Birthday">
+                            </div>
+                            <div class="col">
+                                <label for="gender">Gender</label><br>
+                                <input type="radio" name="gender" id="gender">
+                                <label for="gender">Male</label>
+                                <input type="radio" name="gender" id="gender">
+                                <label for="gender">Female</label>                              
+                            </div>                            
+                        </div>
+                        <div class="rt">
+                            <div class="col">
+                                <label for="phone">Phone</label><br>
+                                <input type="text" name="phone" id="phone">  
+                            </div>
+                            <div class="col">
+                                <label for="card">ID Card</label><br>
+                                <input type="text" name="card" id="card">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="row4">
+                        <div class="lt">
+                            <div class="col">
+                                <label for="payment">Payments</label><br>
+                                <select id="payment" name="payment">
+                                    <option value="credit">Pay by credit card</option>
+                                    <option value="debit">Pay by domestic debit card</option>
+                                    <option value="book">Book and pay now</option>
+                                </select>                            
+                            </div>                            
+                        </div>
+                        <div class="rt">
+                            <div class="col reset">
+                                <input class="information" type="reset" id="reset" value="Reset">
+                            </div>
+                            <div class="col submit">
+                                <input onclick="check()" class="information" type="button" value="Book" id="submit">
+                            </div>                             
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <p>
+            Expedia, Inc. is not responsible for content on external Web sites. <br>
+    © 2023 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc. CST# 2029030-50.                
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
